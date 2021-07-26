@@ -1,6 +1,6 @@
 <template>
 
-  <div class="smooth-grow background-red" v-on:click="switchImage()" v-bind:class="{'background-black': !wide, 'background-red': wide}" id="app">
+  <div v-on:click="switchImage()" v-bind:class="{'background-black': !wide, 'background-red': wide}" id="app">
     <div class="overbound">
       <div id="left-col" class="float" v-bind:style="{width: percentWidth + 'vw', flexBasis: percentWidth + 'vw'}" v-bind:class="{'background-black': !wide, 'background-red': wide}">
         <div class="main">
@@ -109,7 +109,7 @@ export default {
   }
     
   .show {
-    opacity: 100%;
+    opacity: 100;
   }
 
   .hide {
