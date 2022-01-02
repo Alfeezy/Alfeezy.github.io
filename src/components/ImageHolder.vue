@@ -44,5 +44,9 @@ export default {
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
   }
+  
+  .show {
+    opacity: 100% !important;
+  }
 
 </style>
