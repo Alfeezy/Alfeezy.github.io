@@ -109,7 +109,7 @@ export default {
   }
     
   .show {
-    opacity: 100;
+    opacity: 100%;
   }
 
   .hide {
