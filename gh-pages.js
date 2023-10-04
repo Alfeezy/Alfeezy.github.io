@@ -8,10 +8,10 @@ publish(
  'dist',
   {
     branch: 'svelte',
-    repo: 'https://github.com/Alfeezy/Alfeezy.github.io.git',
+    repo: 'https://github.com/Alfeezy/Alfeezy.github.io',
     dotfiles: true
   },
-  () => {
-   console.log('Deploy Complete!');
+  (err) => {
+   console.log(err);
   }
 );
